@@ -25,7 +25,6 @@ export default function PageTransition({ children }: PageTransitionProps) {
         animate="animate"
         exit="exit"
         variants={variants}
-        // allow this div to grow in your flex layout:
         className="w-full flex-1 flex flex-col"
       >
         {children}

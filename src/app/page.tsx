@@ -67,7 +67,7 @@ const page = () => {
                       alt='user image'
                     />
                     <img 
-                      className="inline-block object-cover h-10 w-10 rounded-full ring-2 ring-slate-100"
+                      className="inline-block h-10 w-10 rounded-full ring-2 ring-slate-100"
                       src="/users/user-5.jpg"
                       alt='user image'
                     />
@@ -150,7 +150,7 @@ const page = () => {
               <div className="mx-auto max-w-2xl sm:text-center">
                   <h2 className="order-1 mt-2 tracking-tight text-center text-balance !leading-tight font-bold text-5xl md:text-6xl text-[#212121]">
                     Upload your photo and get{' '}
-                    <span className="relative inline-block px-2 bg-[#06923E] text-white leading-[1.2]">
+                    <span className="px-2 bg-[#06923E] text-white">
                       your own case
                     </span>
                   </h2>
